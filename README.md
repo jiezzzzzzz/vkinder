@@ -12,11 +12,11 @@
 
 1. Созранить проект себе на машину:
 
-    git clone https://github.com/jiezzzzzzz/vkinder
+    <code>git clone https://github.com/jiezzzzzzz/vkinder</code>
     
 2. Установить зависимости: 
 
-    pip install -r requirements.txt
+    <code>pip install -r requirements.txt</code>
     
 3. Установить переменные окружения
 
