@@ -60,9 +60,9 @@
 
 Пример ссылки из документации:
 
-    https://oauth.vk.com/authorize?client_id=1&display=page&scope=friends&response_type=token&v=5.92&state=123456
+    <code>https://oauth.vk.com/authorize?client_id=1&display=page&scope=friends&response_type=token&v=5.92&state=123456</code>
     
-<code>redirect_uri/code> указывать не надо т.к. сайт для этого прилложения не нужен
+<code>redirect_uri</code> указывать не надо т.к. сайт для этого прилложения не нужен
 <code>response_type/code> и <code>display/code> оставить такими же, как в примере ссылки
 <code>client_id</code> уже получен на шаге 2
 <code>v/code> версия апи, нужно указать самую свежую, на данный момент это 5.131
