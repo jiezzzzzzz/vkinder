@@ -54,7 +54,7 @@
 
 Для этого снова перейти на страницу с приложениями и нажать на кнопку "Редактировать" рядом с нужным приложением. В адресной строке появится его id. 
 
-Напрмиер, из этой ссылки: https://vk.com/editapp?id=678295892 видно, что client_id=678295892.
+Напрмиер, из этой ссылки: <code>https://vk.com/editapp?id=678295892</code> видно, что client_id=678295892.
 
 3. ### Собрать ссылку для получения ключа
 
@@ -63,9 +63,9 @@
     <code>https://oauth.vk.com/authorize?client_id=1&display=page&scope=friends&response_type=token&v=5.92&state=123456</code>
     
 <code>redirect_uri</code> указывать не надо т.к. сайт для этого прилложения не нужен
-<code>response_type/code> и <code>display/code> оставить такими же, как в примере ссылки
+<code>response_type</code> и <code>display</code> оставить такими же, как в примере ссылки
 <code>client_id</code> уже получен на шаге 2
-<code>v/code> версия апи, нужно указать самую свежую, на данный момент это 5.131
+<code>v</code> версия апи, нужно указать самую свежую, на данный момент это 5.131
 
 Параметр <code>scope</code> отвечает за доступ к тем или иным частям приложения. Тут стоит указать <code>wall, friend, photos</code>
 
